@@ -1,0 +1,21 @@
+﻿Build started 6/30/2014 3:19:08 PM.
+     1>Project "C:\Users\Administrator\Desktop\Automation_Software_v1\GENibus C++\Genibus_CRC_to_SoftLogix\Genibus_CRC_to_SoftLogix.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D GENIBUS_CRC_TO_SOFTLOGIX_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt crc_genibus.cpp stdafx.cpp
+         stdafx.cpp
+         crc_genibus.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Genibus_CRC_to_SoftLogix.res" Genibus_CRC_to_SoftLogix.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\Automation_Software_v1\GENibus C++\Debug\Genibus_CRC_to_SoftLogix.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Desktop\Automation_Software_v1\GENibus C++\Debug\Genibus_CRC_to_SoftLogix.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\Automation_Software_v1\GENibus C++\Debug\Genibus_CRC_to_SoftLogix.lib" /MACHINE:X86 /DLL Debug\Genibus_CRC_to_SoftLogix.res
+         Debug\crc_genibus.obj
+         Debug\stdafx.obj
+            Creating library C:\Users\Administrator\Desktop\Automation_Software_v1\GENibus C++\Debug\Genibus_CRC_to_SoftLogix.lib and object C:\Users\Administrator\Desktop\Automation_Software_v1\GENibus C++\Debug\Genibus_CRC_to_SoftLogix.exp
+     1>crc_genibus.obj : error LNK2019: unresolved external symbol "unsigned short __cdecl update_crc_ccitt(unsigned short,char)" (?update_crc_ccitt@@YAGGD@Z) referenced in function _CRC_value
+     1>C:\Users\Administrator\Desktop\Automation_Software_v1\GENibus C++\Debug\Genibus_CRC_to_SoftLogix.dll : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\Administrator\Desktop\Automation_Software_v1\GENibus C++\Genibus_CRC_to_SoftLogix\Genibus_CRC_to_SoftLogix.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.92
